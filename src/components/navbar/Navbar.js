@@ -37,9 +37,10 @@ const Navbar = (props) => {
                 <ul>
                     <Link to='/homePage'><li>Home</li></Link>
                     <Link to='/categories'><li>Categories</li></Link>
-                    <Link to='/create'><li>Cacca</li></Link>
+                    <Link to='/create'><li>Create</li></Link>
                     <Link to='/random'><li>Random</li></Link>
-                    {!user ? <Link to='/login'>Login</Link> : <button onClick={handleLogout}>Logout</button>}
+                    {!user ? <Link to='/login'>Login</Link> : <button style={{background: '#284057', margin: '0px 10px',
+                        padding: '10px', fontSize: '20px'}}  onClick={handleLogout}>Logout</button>}
                   
                 </ul>
             </div>

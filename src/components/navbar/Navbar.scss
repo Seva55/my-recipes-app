@@ -33,10 +33,19 @@
             background: #284057;
             border-radius: 5px;
             font-size: 20px;
-            transition: all 0.4 ease;
 
             &:hover{
                 color: #c2d995;
+            }
+            &-button {
+                    color: #fff;
+                    text-decoration: none;
+                    margin: 0px 10px;
+                    padding: 10px;
+                    background: #284057;
+                    border-radius: 5px;
+                    font-size: 20px;
+
             }
         }
     }
